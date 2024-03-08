@@ -2,3 +2,4 @@
 .env_bd
 .env_php
 .env_phpAdmin
+*.key
