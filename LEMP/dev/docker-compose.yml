@@ -1,0 +1,35 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    env_file:
+      - .env
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./app:/app
+      - ./nginx/certificados/exemplo.lan.pem:/certificados/exemplo.lan.pem
+      - ./nginx/certificados/exemplo.lan.key:/certificados/exemplo.lan.key
+      - ./nginx/nginx.conf.template:/etc/nginx/templates/nginx.conf.template
+  php:
+    build: php
+    env_file:
+      - .env_php
+    volumes:
+      - ./app:/app
+      - ./php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
+  # phpadmin:
+  #   image: phpmyadmin
+  #   env_file:
+  #     - .env_phpAdminmeuphp
+  basededatos:
+    image: mysql:8.3
+    env_file:
+      - .env_bd
+    volumes:
+      - ./bd/backup.sh:/docker-entrypoint-initdb.d/backup.sh
+      - datos:/var/lib/mysql
+      - /bd:/bd
+volumes:
+  datos:

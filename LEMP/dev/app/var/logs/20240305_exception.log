@@ -1,0 +1,18 @@
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:19: Shop not found at line 438 in file classes/shop/Shop.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:20: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:20: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:28: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:28: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:29: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:29: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:29: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:29: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:30: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:30: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:30: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:30: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:32: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:32: There is no image type defined for &quot;products&quot;. at line 384 in file src/Adapter/Image/ImageRetriever.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:39: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;bd.ps_shop_url&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:39: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;bd.ps_shop_url&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.4	2024/03/05 - 10:44:39: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;bd.ps_shop_url&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
