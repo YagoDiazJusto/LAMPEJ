@@ -19,10 +19,10 @@ services:
     volumes:
       - ./app:/app
       - ./php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
-  # phpadmin:
-  #   image: phpmyadmin
-  #   env_file:
-  #     - .env_phpAdminmeuphp
+  phpadmin:
+    image: phpmyadmin
+    env_file:
+      - .env_phpAdminmeuphp
   basededatos:
     image: mysql:8.3
     env_file:
