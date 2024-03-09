@@ -1,7 +1,7 @@
 server {
     listen 80;
     listen 443 ssl;
-    server_name da2324.giize.com;
+    server_name ${SERVER_NAME};
 
     ssl_certificate /certificados/${CERT_FILE};
     ssl_certificate_key /certificados/${KEY_FILE};
