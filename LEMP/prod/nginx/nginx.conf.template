@@ -3,8 +3,8 @@ server {
     listen 443 ssl;
     server_name da2324.giize.com;
 
-    ssl_certificate /certificados/exemplo.lan.pem;
-    ssl_certificate_key /certificados/exemplo.lan.key;
+    ssl_certificate /certificados/${CERT_FILE};
+    ssl_certificate_key /certificados/${KEY_FILE};
 
     root /app;
     index index.php index.html index.htm;
